@@ -28,7 +28,7 @@ Runtime = Engine + APIs + Queues + Event Loop
 
 
 
-### 3 What is the relationship between ECMAScript and the Browser Runtime?
+# 3 What is the relationship between ECMAScript and the Browser Runtime?
 
 **ECMAScript** defines the JavaScript language and its built-in features, while the **Browser Runtime** provides the environment and Web APIs to run JavaScript.
 
@@ -40,7 +40,7 @@ Browser Runtime → v8 + Browser APIs + window + Event Loop + Queues
 ---
 
 
-### 4. What are the main components of a Browser Runtime?
+# 4. What are the main components of a Browser Runtime?
 
 The main components are:
 
