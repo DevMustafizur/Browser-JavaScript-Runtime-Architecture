@@ -67,24 +67,3 @@ Answer: No. V8 is only the JavaScript Engine. The Browser Runtime also includes 
 
 Answer: The browser provides features such as DOM, Fetch, Timers, Storage, Events, and Geolocation.
 
-### 16 Browser Runtime-Architecture
-
-Browser Runtime (entire environment, not a literal container)
-│
-├── JavaScript Engine (V8, SpiderMonkey...)
-│     └── Microtask Queue
-│           ├── Promise
-│           ├── async/await
-│           └── queueMicrotask
-│
-├── Window Object (global scope)
-│
-├── Browser / Web APIs
-│
-└── Event Loop
-      └── Macrotask / Task Queue
-            ├── setTimeout
-            ├── UI events
-            └── network callbacks
-
-
