@@ -4,13 +4,14 @@ The Browser JavaScript Runtime is the complete environment provided by a browser
 
 Browser JavaScript Runtime
 │
-├── V8 JavaScript Engine
+├── V8
 ├── Browser APIs
 ├── Window Object
 ├── Task Queues
-└── Event Loop
+├── Event Loop
+└── Browser Native Implementation
 
-Runtime = V8 Engine + Browser APIs + Window Object + Queues + Event Loop
+Runtime = V8 Engine + Browser APIs + Window Object + Queues + Event Loop + Browser Native Implementation
 
 ---
 
