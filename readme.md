@@ -8,13 +8,14 @@ Answer: Browser JavaScript Runtime is the complete environment where JavaScript 
 
 Answer:
 
-JavaScript Engine
-Window Object
-Browser/Web APIs
-Task Queue
-Microtask Queue
-Event Loop
-Browser Native Implementation
+- JavaScript Engine
+- Window Object
+- Browser/Web APIs
+- Task Queue
+- Microtask Queue
+- Event Loop
+- Browser Native Implementation
+  
 ### 3. What is a JavaScript Engine?
 
 Answer: A JavaScript Engine parses, compiles, and executes JavaScript code. Example: V8.
